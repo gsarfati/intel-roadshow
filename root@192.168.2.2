@@ -1,0 +1,49 @@
+>>> 
+root@quark016db3:~# node
+> var toto = require('jsupm_hmc5883l');
+undefined
+> toto
+{ MAX_BUFFER_LENGTH: 6,
+  Hmc5883l: [Function: Hmc5883l] }
+> compass = new toto.Hmc5883l(0)
+{}
+> compass
+{}
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.heading()
+89.75841522216797
+> compass.update() ; compass.heading()
+44.881500244140625
+> compass.update() ; compass.heading()
+89.77484130859375
+> compass.update() ; compass.heading()
+89.6701889038086
+> compass.update() ; compass.heading()
+44.76890182495117
+> compass.heading()
+
+http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Compass-p-759.html
+
+https://github.com/voodootikigod/node-serialport
+
+http://iotdk.intel.com/docs/master/mraa/pwm_8h.html
+
+http://iotdk.intel.com/docs/master/upm/building.html
+
+https://github.com/intel-iot-devkit/mraa/tree/master/examples/javascript
+
